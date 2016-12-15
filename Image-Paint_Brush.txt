@@ -1,0 +1,58 @@
+These are instructions on how to create a paintbrush from an image in GIMP
+
+Open your working image with GIMP
+
+Step 1:
+	Click 'Tools'
+		'Selection Tools'
+			'Rectangle Select'
+
+	Select the area of the object you wish
+	to make your paintbrush and adjust as needed
+
+Step 2:
+	Click 'Edit'
+		'Copy'
+
+Step 3:
+	Click 'Edit'
+		'Paste as'
+			'New Image'
+
+Now make your new Image you just created your active window
+
+Step 4:
+	Click 'Select'
+		'All'
+
+Step 5:
+	Click 'Colors'
+		'Color to Alpha...'
+			At this point you will have a new dialog box open
+			with a preview of the color to alpha. If the wrong
+			color is going to alpa select in the rectangle
+			following  'From:'. A new dialog opens and by using
+			the color dropper (lower right above [OK]) select
+			the color you desire to be your alpha color.
+		Click [OK]
+			Your preview should now have your desired image visible
+		Click [OK]
+
+Step 6:
+	{Repeat Step 4}
+
+Step 7:
+	{Similar to step 3}
+	Click 'EditSelect'
+		"Paste as'
+			'New Brush'
+				Name your new brush. Keep your brush name and
+				file name similar taking care not to use spaces
+				in the title of the file name     Eg.;	File Name
+									File_Name
+			Click [OK]
+
+That's it!
+Congratulations your new brush will be available to select as a brush patten with
+the name you just gave it.
+
