@@ -53,6 +53,6 @@ Step 7:
 			Click [OK]
 
 That's it!
-Congratulations your new brush will be available to select as a brush patten with
+Congratulations your new brush will be available to select as a brush pattern with
 the name you just gave it.
 
