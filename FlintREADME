@@ -1,0 +1,38 @@
+## These instructions are to be followed when
+## installing the Flint OS from a USB to the
+## local Hard Disk Drive. This should only be
+## done after testing the 'Live Bootable Medium'
+## works on the current system.
+## The install is FlintOS ver. 2.1 which is
+## based on Chromium 55.xxx.
+##
+## Here is the download link
+## https://flintos.io/download/x86-v0-2-1/
+##
+## Enter a terminal screen:
+##       press [CTRL+ALT+F2] or [CTRL+ALT+t]
+##       alternatly you can typre [shell] from
+##       inside the Chrome web browser -I did not test this method.
+##
+##  Login with [cronos] no password was requested
+##  but it should also be [cronos] if prompted.
+##
+##  From the command prompt ($) enter:
+##       $ lsblk
+##  This will return something like the following:
+##       NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+##       sda      8:0    0 465.8G  0 disk 
+##       └─sda1   8:1    0 465.8G  0 part /
+##       sdb      8:0    0 7.8G  0 disk 
+##       └─sdb1   8:1    0 7.8G  0 part /
+##  Determine which device is your local Hard Dish Drive.
+##  Enter the following command:
+##       $ sudo /usr/sbin/chromeos-install --dst /dev/sd%
+##  You will be prompted with a confirmation [y/N]
+##  select [Y] if you wish to continue.
+##
+##  The install will take some time and when it completes
+##  you will be returned to the command prompt.
+
+##  $ sudo reboot will reboot the PC, remove the install
+##  media and FlintOS will boot.
